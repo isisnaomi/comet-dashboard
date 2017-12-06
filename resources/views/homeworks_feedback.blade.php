@@ -93,7 +93,7 @@
           <!-- ends graph 2 -->
           <!-- top graph 3 -->
           <div class="col-sm-4">
-            <h2 class="flashcard--title">PROMEDIO DEL GRUPO</h2>
+            <h2 class="flashcard--title">ERRORES DETECTADOS</h2>
             <canvas id="myChart3" width="auto" height="auto"></canvas>
               
             <script>
