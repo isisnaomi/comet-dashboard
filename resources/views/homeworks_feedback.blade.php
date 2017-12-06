@@ -124,9 +124,9 @@
 
                     // These labels appear in the legend and in the tooltips when hovering different arcs
                     labels: [
-                        'Red',
-                        'Yellow',
-                        'Blue'
+                        'Error Ejecución',
+                        'Error Lógico',
+                        'Error Compilación'
                     ]
                 }
             });
@@ -147,7 +147,7 @@
           <td>Alumno</td>
           <td>Puntos</td>
           <td>Estado</td>
-          <td>Error</td>
+
           </thead>
           <tbody>
           @foreach($data['submissions'] as $submission)
@@ -155,7 +155,7 @@
               <td>{{$submission['student_name']}}</td>
               <td>{{$submission['points']}}</td>
               <td>{{$submission['all_tests_passed']}}</td>
-              <td>{{$submission['pretest_error']}}</td>
+
             </tr>
           @endforeach
           </tbody>
